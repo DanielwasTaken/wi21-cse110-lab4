@@ -1,0 +1,2 @@
+1. The bug is that variables are strings and so the two numbers are concatenated rather than added.
+2. My fix was to ensure that the numerical values of the passed in numbers would be added. I did this using the global Number() function. 
