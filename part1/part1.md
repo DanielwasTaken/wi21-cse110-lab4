@@ -35,7 +35,9 @@
     - F: true, because Boolean(2) will make the 2 a boolean true, which will be equal to another boolean true.
 16. The == will check two values for equality, and will convert these values to numbers if the operand types are different. === does not convert the types, and so any operands with different types will immediately return false without type conversion.
 17. 'How are you?' will be printed. This is because 2 is not equal to 1, the numeric value of true. This means that the print statement from the first if statement will not be reached. 2 is a nonzero number, which is interpreted as true by the else if statement, so line 4 will print. Since the else if statement is satisfied, the else statement will be skipped. Thus, 'How are you?' will be the only thing printed. 
-19. The array [6, 8, 10] will be returned by modifyArray. The parameters given are [1, 2, 3] and callback, which is a function that returns the results of a function with the parameter value increased by 2. Thus, 1 becomes 3, which is multiplied by 2 to become 6, 2+2=4*2=8, 3+2=5*2=10, with each of the results being pushed to newArr. Then newArr is returned at the end of the function, which will be [6, 8, 10] with the given parameters. 
-21. 1 4 3 2 will be printed on separate lines in order. setTimeout runs the functions after a delay, so first 1 and 4 will be printed. 3 has no delay so it is printed next. Then 2 is printed after a 1 second delay.
+
+ 19. The array [6, 8, 10] will be returned by modifyArray. The parameters given are [1, 2, 3] and callback, which is a function that returns the results of a function with the parameter value increased by 2. Thus, 1 becomes 3, which is multiplied by 2 to become 6, 2+2=4*2=8, 3+2=5*2=10, with each of the results being pushed to newArr. Then newArr is returned at the end of the function, which will be [6, 8, 10] with the given parameters. 
+
+ 21. 1 4 3 2 will be printed on separate lines in order. setTimeout runs the functions after a delay, so first 1 and 4 will be printed. 3 has no delay so it is printed next. Then 2 is printed after a 1 second delay.
 
 
